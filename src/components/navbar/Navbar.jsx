@@ -35,32 +35,32 @@ const Navbar = () => {
               id="navbar-responsive"
             >
               <li>
-                <NavLink to="/" className="navbar-a">
+                <NavLink to="/aboutUs" className="navbar-a">
                   О компании
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/" className="navbar-a">
+                <NavLink to="/shipping-and-payment" className="navbar-a">
                   Доставка и оплата
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/" className="navbar-a">
+                <NavLink to="/return" className="navbar-a">
                   Возврат
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/" className="navbar-a">
+                <NavLink to="/garant" className="navbar-a">
                   Гарантии
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/" className="navbar-a">
+                <NavLink to="/contact" className="navbar-a">
                   Контакты
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/" className="navbar-a">
+                <NavLink to="/blog" className="navbar-a">
                   Блог
                 </NavLink>
               </li>

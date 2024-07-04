@@ -1,0 +1,238 @@
+.nav-link5{
+    display: flex;
+}
+.hero{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    max-width: 335.69px;
+    height: 22px;
+    top: 201.22px;
+    left: 546.14px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 6px;
+}
+.hero-h5{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.92px;
+    text-align: left;
+    color: #33A0FF;
+}
+.hero-h6{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.92px;
+    text-align: left;
+}
+.navv{
+    display: flex;
+}
+.single__imgg{
+    margin-top: 40px;
+    width: 300.75px;
+    padding: 1px;
+    gap: 0px;
+    border-radius: 15px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.single__img{
+    width: 100px;
+    left: 286px;
+    gap: 0px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+}
+.title__h2{
+    max-width: 444.48px;
+    height: 98px;
+    left: 817.5px;
+    margin-top: 50px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 20px;
+    font-family: Quicksand;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+.rating__p{
+    margin-top: 5px;
+    padding-left: 10px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    color: goldenrod;
+}
+.price1 {
+    display: flex;
+}
+.price-narx1 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32.4px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 6px;
+    color: #40BFFF;
+}
+.price-skidka {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 3px;
+    color: #9098B1;
+}
+.price-foiz {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 3px;
+    color: #FB7181;
+}
+.h{
+    display: flex;
+}
+.nav-h{
+    padding-top: 15px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #262626;
+}
+.color{
+    display: flex;
+}
+.colors{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 10px 20px;
+}
+.size{
+    display: flex;
+}
+.sizes{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 10px 20px ;
+}
+.XS{
+    width: 123.28px;
+    height: 40.41px;
+    top: 340.8px;
+    left: 562.72px;
+    gap: 0px;
+    opacity: 0px;
+    outline: none;
+    border: 2px solid #F1F3F4;
+}
+.single__img1 {
+    width: 283.75px;
+    margin-top: 40px;
+    gap: 0px;
+    border-radius: 5px ;
+    opacity: 0px;
+}
+.rasm{
+    flex-wrap: wrap;
+}
+.product-rating{
+    padding-left: 110px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    margin-top: 10px;
+    color: goldenrod;
+}
+.product-narx{
+    padding-top: 5px;
+    padding-left: 100px;
+}
+.single{
+    padding-top: 40px;
+}
+.nav-link6{
+    display: flex;
+}
+h4{
+    font-family: Quicksand;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color: #7E7E7E;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+h4:hover{
+    transition: all .2s linear;
+    color: #3BB77E;
+}
+.top{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    color: #253D4E;
+}
+.top__p{
+    max-width: 760.19px;
+    height: 66px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    left: 31.04px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 10px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7E7E7E;
+}
+@media (max-width: 870px) and (min-width: 330px) {
+    .navv {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 510px) and (min-width: 330px) {
+    .nav-link6 {
+        display: none;
+    }
+    .top__p{
+        margin-bottom: 90px;
+    }
+}

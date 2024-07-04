@@ -1,0 +1,114 @@
+.cart-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-names{
+    display: flex;
+    gap: 115px;
+}
+.cart-h4{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #22262A;
+}
+.cart-h4:hover{
+    color: #33A0FF;
+}
+.cart-img{
+    width: 80.85px;
+    height: 94px;
+    top: 407.66px;
+    left: 175.41px;
+    gap: 0px;
+    border-radius: 7px 0px 0px 0px;
+    opacity: 0px;
+}
+.cart-title{
+    display: flex;
+}
+.cart-delete{
+    color: red;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+.cart-title{
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    padding-top: 40px;
+}
+.plus-minus{
+    width: 124.54px;
+    height: 40px;
+    top: 427.03px;
+    left: 1038.03px;
+    gap: 0px;
+    opacity: 0px;
+}
+.plus{
+    padding-left: 17px;
+    width: 30px;
+    height: 40px;
+    color: #33A0FF;
+    background-color: #F6F7F8;
+    border: 2px solid #F6F7F8;
+}
+.son{
+    width: 30px;
+    height: 50px;
+    color: #33A0FF;
+    background-color: #F6F7F8;
+    border: 2px solid #F6F7F8;
+}
+.minus{
+    padding-left: 15px;
+    width: 30px;
+    height: 40px;
+    color: #33A0FF;
+    background-color: #F6F7F8;
+    border: 2px solid #F6F7F8;
+}
+.plus:hover{
+    transition: all .3s linear;
+    color: #F6F7F8;
+    background-color: #33A0FF;
+}
+.minus:hover{
+    transition: all .3s linear;
+    color: #F6F7F8;
+    background-color: #33A0FF;
+}
+.cart-price{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+.cart-price1{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    padding-top: 25px;
+}
+@media (max-width: 695px) and (min-width: 330px) {
+    .cart-title{
+        flex-wrap: wrap;
+    }
+    .cart-name{
+        overflow: auto;
+    }
+    .cart-h4{
+        white-space: nowrap;
+    }
+}

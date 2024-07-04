@@ -1,0 +1,10 @@
+.banner__swiper video,
+.banner__swiper img {
+    /* margin-top: 15px; */
+    width: 1410px;
+    height: 651px;
+    object-fit: cover;
+}
+.banner{
+    border-radius: 50px;
+}

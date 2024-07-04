@@ -1,0 +1,39 @@
+.blog{
+    padding-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog_title{
+    display: flex;
+}
+.blog_h6{
+    width: 310px;
+    height: 52px;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+.blog_cart{
+    width: 420px;
+    height: 304px;
+    top: 3426px;
+    left: 310px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+}
+.day{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15.4px;
+    text-align: left;
+    padding-top: 24px;
+    color: #454545;
+}
+.strelka{
+    padding-left: 70px;
+}

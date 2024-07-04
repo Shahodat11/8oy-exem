@@ -1,0 +1,58 @@
+.admin-h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-top: 76px;
+}
+.admin-p{
+    max-width: 1255px;
+    height: 87px;
+    left: 104px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28.8px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 26px;
+}
+.admin-button{
+    width: 338px;
+    height: 70px;
+    gap: 0px;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    background-color: #33A0FF;
+    border: 2px solid #33A0FF;
+    margin-bottom: 50px;
+}
+.admin-button:hover{
+    background-color: #fff;
+    color: #33A0FF;
+    transition: all .3s linear;
+}
+@media (max-width: 953px) and (min-width: 330px) {
+    .admin-p{
+        margin-bottom: 90px;
+    }
+}
+@media (max-width: 653px) and (min-width: 330px) {
+    .admin-p{
+        margin-bottom: 150px;
+    }
+}
+@media (max-width: 500px) and (min-width: 330px) {
+    .admin-p{
+        margin-bottom: 250px;
+    }
+}
