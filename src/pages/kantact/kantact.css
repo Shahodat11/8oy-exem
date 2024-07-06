@@ -1,0 +1,22 @@
+.kontact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kontact-h6 {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.78px;
+  text-align: left;
+}
+
+.kontact-p {
+  width: 209px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.86px;
+  text-align: left;
+}/*# sourceMappingURL=kantact.css.map */

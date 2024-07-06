@@ -1,0 +1,89 @@
+.katalog {
+  margin-top: -50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button1 {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.86px;
+  width: 153px;
+  height: 50px;
+  gap: 0px;
+  border-radius: 100px;
+  opacity: 0px;
+  color: #454545;
+  background-color: #fff;
+  border: 2px solid #454545;
+}
+
+.button1:hover {
+  color: #fff;
+  transition: all 0.2s linear;
+  background-color: #454545;
+}
+
+span {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.39px;
+  margin-left: -15px;
+  padding-right: 10px;
+}
+
+.card {
+  width: 420px;
+  height: 250px;
+  top: 878px;
+  left: 310px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+  display: flex;
+  background-color: #F2F2F2;
+}
+
+.h4 {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-bottom: 149px;
+}
+
+h5 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.4px;
+  text-align: left;
+  padding-left: 32px;
+}
+
+.cart_img {
+  padding-left: 90px;
+}
+
+.cards {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h3 {
+  margin-top: -50px;
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.64px;
+  text-align: left;
+}/*# sourceMappingURL=katalog.css.map */

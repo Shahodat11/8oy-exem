@@ -1,0 +1,74 @@
+.kompone {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kompone-h2 {
+  font-family: Manrope;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70.4px;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 36px;
+}
+
+.kompone-cart {
+  width: 530px;
+  height: 253px;
+  top: 364px;
+  left: 310px;
+  gap: 0px;
+  border-radius: 15px;
+  opacity: 0px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+}
+
+.kompone-h4 {
+  font-family: Manrope;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70.4px;
+  text-align: left;
+  padding-top: 32px;
+  padding-left: 32px;
+}
+
+.kompone-h5 {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  padding-left: 32px;
+  padding-top: 80px;
+}
+
+.nav-link2 {
+  width: 640px;
+  height: 810px;
+}
+
+.kompone-p {
+  padding-top: 15px;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+
+.button11 {
+  border: 2px solid #fff;
+  background-color: #fff;
+  color: #777;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.86px;
+  text-align: left;
+  margin-top: 20px;
+}/*# sourceMappingURL=kompone.css.map */

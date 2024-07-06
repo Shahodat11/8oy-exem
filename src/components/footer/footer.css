@@ -1,0 +1,46 @@
+.footers {
+  height: 500px;
+  color: #edecec;
+}
+
+.footer {
+  padding-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_h6 {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.78px;
+  text-align: left;
+  color: #454545;
+}
+
+.footer_h4 {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.86px;
+  text-align: left;
+  color: #777;
+  padding-top: 24px;
+}
+
+.tel {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.78px;
+  text-align: left;
+  color: #454545;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.logo {
+  padding-top: 15px;
+  padding-right: 12px;
+}/*# sourceMappingURL=footer.css.map */
