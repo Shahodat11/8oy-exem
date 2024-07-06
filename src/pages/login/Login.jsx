@@ -1,74 +1,60 @@
-// import React from 'react'
-// import { useNavigate } from "react-router-dom";
-// import { useState, useEffect } from "react";
-// import axios from "../../api";
-// import '../login/login.css'
-// import Navbar from '../../components/navbar/Navbar'
-// import Header from '../../components/header/Header'
-// import Footer from '../../components/footer/Footer'
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { setToken } from "../../context/slices/authSlice";
+import { useGetInputValue } from "../../hooks/useGetInputValue";
 
-// function Login() {
-// const navigation = useNavigate();
-//   const [username, setUsername] = useState("mor_2314");
-//   const [password, setPassword] = useState("83r5^_");
+const initialState = {
+  username: "",
+  password: "",
+};
 
-//   const inpSubmit = (e) => {
-//     e.preventDefault();
-//     let users = {
-//       username,
-//       password,
-//     };
+const Login = () => {
+  const { formData, handleChange } = useGetInputValue(initialState);
+  const isLogin = useSelector((state) => state.auth.token);
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
 
-//     axios
-//       .post("/Auth/Login", users)
-//       .then((res) => {
-//         localStorage.setItem("token", res.data.token);
-//         navigation("/Admin");
-//       })
-//       .catch((err) => {
-//         console.error(err);
+  const handleLogin = (e) => {
+    e.preventDefault();
+    if (formData.username === "john32" && formData.password === "87654321") {
+      console.log("welcome");
+      dispatch(setToken("fake-token"));
+      navigate("/admin");
+    } else {
+      console.log("username or password is incorrect");
+    }
+  };
 
-//       });
-//   };
-//   return (
-//     <>
-//       <Navbar/>
-//       <Header/>
-//     <div className='container'>
-//     <form onSubmit={inpSubmit} >
-//           <label htmlFor="text">
-//             <p>Username</p>
-//             <input className='input'
-//               value={username}
-//               onChange={(e) => setUsername(e.target.value)}
-//               required
-//               type="text"
-//               id="text"
-//               name="text"
-//               placeholder="Enter Your Email"
-//             />
-//           </label>
-//           <label htmlFor="password">
-//             <p>Password</p>
-//             <input className='input'
-//               value={password}
-//               onChange={(e) => setPassword(e.target.value)}
-//               required
-//               type="password"
-//               id="password"
-//               name="password"
-//               placeholder="Enter Your password"
-//             />
-//           </label>
+  useEffect(() => {
+    if (isLogin === "fake-token") {
+      navigate("/admin");
+    }
+  }, [isLogin, navigate]); // Add dependencies here
 
-//           <button type="submit">
-//             Login
-//           </button>
-//         </form>
-//     </div>
-//     <Footer/>
-//     </>
-//   )
-// }
+  return (
+    <div className="login">
+      <div className="container">
+        <form onSubmit={handleLogin}>
+          <input
+            name="username"
+            value={formData.username}
+            onChange={handleChange}
+            type="text"
+            placeholder="UserName john32"
+          />
+          <input
+            name="password"
+            value={formData.password}
+            onChange={handleChange}
+            type="password"
+            placeholder="Password 87654321"
+          />
+          <button>Login</button>
+        </form>
+      </div>
+    </div>
+  );
+};
 
-// export default Login
+export default Login;

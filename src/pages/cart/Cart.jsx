@@ -24,15 +24,11 @@ const Cart = () => {
   let cartItems = carts?.map((item) => (
     <div key={item.id}>
       <div className="cart-title">
-        <button
-          //   className="cart-delete"
-          onClick={() => dispatch(removeItemFromCart(item))}
-        >
+        <button onClick={() => dispatch(removeItemFromCart(item))}>
           <TiDeleteOutline />
         </button>
         <img className="cart-img" src={item.image} width={150} alt="" />
         <p className="cart-title">{item.title}</p>
-        {/* <b className="cart-price1">{(item.price * item.quantity)?.brm()}</b> */}
         <div className="plus-minus">
           <button
             className="plus"
@@ -58,7 +54,7 @@ const Cart = () => {
       <div className="container">
         <Navbar />
         <Header />
-        <div className="cart-page">
+        <div className="cart-pagee">
           <div className="cart-name">
             <h4 className="cart-h4">PRODUCT</h4>
             <div className="cart-names">

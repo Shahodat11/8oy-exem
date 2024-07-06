@@ -16,6 +16,9 @@ import Garanti from "./pages/garanti/Garanti";
 import Return from "./pages/return/Return";
 import Wishlist from "./pages/wishlist/Wishlist";
 import Cart from "./pages/cart/Cart";
+import CreateProduct from "./pages/admin/createProduct/CreateProduct";
+import ManageProduct from "./pages/admin/manageProduct/ManageProduct";
+import Login from "./pages/login/Login";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,12 +28,15 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/" element={<Auth />}>
-          <Route path="/Admin" element={<Admin />} />
+          <Route path="admin" element={<Admin />}>
+            <Route path="admin/createProduct" element={<CreateProduct />} />
+            <Route path="admin/manageProduct" element={<ManageProduct />} />
+          </Route>
         </Route>
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/cart" element={<Cart />} />
         {/* <Route path="/checkout" element={<Checkout />} /> */}
-        {/* <Route path="/Login" element={<Login />} /> */}
+        <Route path="/Login" element={<Login />} />
         <Route path="/single/:id" element={<Single />} />
         <Route path="/allproduct" element={<AllProduct />} />
         <Route path="/aboutUs" element={<AboutUs />} />

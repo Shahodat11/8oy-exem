@@ -107,6 +107,16 @@
   padding-top: 25px;
 }
 
+.cart-name {
+  width: 1300px;
+  height: 384px;
+  top: 368px;
+  left: 310px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 0px;
+}
+
 @media (max-width: 695px) and (min-width: 330px) {
   .cart-title {
     flex-wrap: wrap;

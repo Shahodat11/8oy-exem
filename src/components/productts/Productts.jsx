@@ -8,7 +8,7 @@ import { addToCart } from "../../context/cartSlice";
 import "../products/Products.scss";
 import img from "../../assets/20230528180416535300 1 (1).svg";
 
-const Productts = ({ data, loading }) => {
+const Productts = ({ data, loading, isAdmin }) => {
   const [more, setMoree] = useState(8);
   const wishlist = useSelector((state) => state.wishlist.value);
   const cart = useSelector((state) => state.cart.value);
@@ -66,6 +66,7 @@ const Productts = ({ data, loading }) => {
                     <IoCartOutline className="cart-button" />
                   )}
                 </button>
+                {isAdmin ? <button>oknjdfa</button> : <></>}
               </div>
             </div>
           ))}
