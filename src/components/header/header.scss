@@ -105,3 +105,100 @@ a:hover {
 #navbar-responsive {
   top: 56px;
 }
+.icons{
+  display: flex;
+}
+@media (max-width: 1200px) and (min-width: 750px) {
+  .header{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 990px) and (min-width: 340px) {
+  .icons{
+    margin-top: 25px;
+  }
+}
+@media (max-width: 790px) and (min-width: 340px) {
+  .icons{
+    margin-left: 400px;
+    margin-top: -130px;
+  }
+  h6{
+    display: none;
+  }
+  .header{
+    margin-left: 25px;
+    margin-top: -65px;
+  }
+  .logo{
+    margin-left: 20px;
+    width: 190px;
+  }
+  .button{
+    width: 100px;
+  }
+}
+@media (max-width: 657px) and (min-width: 340px) {
+  .icons{
+    margin-left: 370px;
+    margin-top: -130px;
+  }
+  .header{
+    margin-top: -65px;
+  }
+  .logo{
+    margin-left: 20px;
+    width: 190px;
+  }
+  .button{
+    width: 80px;
+  }
+}
+@media (max-width: 610px) and (min-width: 340px) {
+  .icons{
+    margin-left: 360px;
+    margin-top: -130px;
+  }
+  .header{
+    margin-top: -65px;
+  }
+  .logo{
+    display: none;
+  }
+  .button{
+    width: 80px;
+    margin-left: 100px;
+  }
+}
+@media (max-width: 578px) and (min-width: 340px) {
+  .icons{
+    margin-left: 240px;
+    margin-top: -130px;
+  }
+  .header{
+    margin-left: 25px;
+    margin-top: -65px;
+  }
+  .logo{
+    display: none;
+  }
+  .button{
+    width: 80px;
+    margin-left: 100px;
+  }
+}
+@media (max-width: 475px) and (min-width: 340px){
+  .icons{
+    margin-left: 200px;
+  }
+}
+@media (max-width: 475px) and (min-width: 340px){
+  .icons{
+    margin-left: 150px;
+  }
+  .navbar__item{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+}

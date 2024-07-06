@@ -56,3 +56,23 @@
     display: flex;
     gap: 20px;
 }
+@media (max-width: 1270px) and (min-width: 7502px) {
+    .search{
+        max-width: 500px;
+    }
+}
+@media (max-width: 661px) and (min-width: 340px) {
+    .search{
+        max-width: 480px;
+    }
+}
+@media (max-width: 550px) and (min-width: 340px) {
+    .search{
+        max-width: 400px;
+    }
+}
+@media (max-width: 467px) and (min-width: 340px) {
+    .search{
+        max-width: 300px;
+    }
+}

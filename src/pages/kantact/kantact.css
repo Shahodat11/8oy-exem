@@ -19,4 +19,38 @@
   font-weight: 400;
   line-height: 21.86px;
   text-align: left;
+}
+
+@media (max-width: 1270px) and (min-width: 1005px) {
+  .kontact {
+    padding-top: 65px;
+  }
+}
+@media (max-width: 1005px) and (min-width: 870px) {
+  .kontact {
+    padding-top: 120px;
+  }
+}
+@media (max-width: 870px) and (min-width: 777px) {
+  .kontact {
+    padding-top: 150px;
+  }
+}
+@media (max-width: 777px) and (min-width: 550px) {
+  .kontact {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 730px) and (min-width: 550px) {
+  .kontact {
+    padding-top: 55px;
+  }
+}
+@media (max-width: 580px) and (min-width: 340px) {
+  .kontact {
+    padding-top: 55px;
+  }
+  .kontact {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=kantact.css.map */

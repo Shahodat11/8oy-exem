@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer_title">
-            <h6 className="footer_h6">Покупателям</h6>
+            <h3 className="footer_h6">Покупателям</h3>
             <h4 className="footer_h4">
               <NavLink to="/aboutUs" className="footer_h4">
                 О компании
@@ -58,7 +58,7 @@ const Footer = () => {
             </h4>
           </div>
           <div className="footer_title">
-            <h6 className="footer_h6">Товары</h6>
+            <h3 className="footer_h6">Товары</h3>
             <h4 className="footer_h4">Люстры</h4>
             <h4 className="footer_h4">Светильники</h4>
             <h4 className="footer_h4">Бра</h4>
