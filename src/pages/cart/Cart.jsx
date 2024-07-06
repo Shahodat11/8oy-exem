@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "../cart/cart.scss";
 import { TiDeleteOutline } from "react-icons/ti";
-import Empty from "../../components/empty/Empty";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
@@ -12,6 +11,7 @@ import {
   decrementCartQuantity,
   removeItemFromCart,
 } from "../../context/cartSlice";
+import Emptyy from "../../components/emptyy/Emptyy";
 
 const Cart = () => {
   useEffect(() => {
@@ -78,7 +78,7 @@ const Cart = () => {
             </div>
           </>
         ) : (
-          <Empty text="Cart" />
+          <Emptyy text="Cart" />
         )}
       </div>
       <Footer />
