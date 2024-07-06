@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 75px;
+    padding-top: 65px;
     padding-bottom: 89px;
 }
 .product_h2{
@@ -16,6 +16,7 @@
     font-weight: 700;
     line-height: 54.64px;
     text-align: left;
+    padding-bottom: 20px;
 }
 .cart-like-img{
     display: flex;
@@ -94,4 +95,7 @@
     opacity: 0px;
     background-color: #fff;
     border: 2px solid #fff;
+}
+.productts{
+    padding-top: 40px;
 }

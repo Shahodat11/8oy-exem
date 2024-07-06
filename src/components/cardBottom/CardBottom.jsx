@@ -13,7 +13,7 @@ const Katalog = () => {
         <div>
           <div className="katalogg">
             <h3 className="h33">Почему NORNLIGHT?</h3>
-            <NavLink>
+            <NavLink to={`/aboutUs`}>
               <button className="button1">О компании</button>
             </NavLink>
           </div>

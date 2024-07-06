@@ -1,0 +1,36 @@
+.shipping {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.shipping-h2 {
+    width: 319px;
+    height: 140px;
+    font-family: Manrope;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    text-align: left;
+}
+.nav-link2 {
+    width: 640px;
+}
+
+.shipping-p {
+    width: 640px;
+    height: 112px;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+.shipping-h6{
+    padding-top: 28px;
+    padding-bottom: 30px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+}

@@ -18,15 +18,6 @@
 .cart-h4:hover{
     color: #33A0FF;
 }
-.cart-img{
-    width: 80.85px;
-    height: 94px;
-    top: 407.66px;
-    left: 175.41px;
-    gap: 0px;
-    border-radius: 7px 0px 0px 0px;
-    opacity: 0px;
-}
 .cart-title{
     display: flex;
 }

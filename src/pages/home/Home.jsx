@@ -95,11 +95,11 @@
 
 // export default Home;
 
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Header";
 import Banner from "../../components/banner/Banner";
-import Katalog from "../../components/katalog/Katalog";
+import Katalog from "../../components/katalog/Katalogg";
 import CardBottom from "../../components/cardBottom/CardBottom";
 import Products from "../../components/products/Products";
 import Bannerr from "../../components/swiper/Banner";
@@ -109,6 +109,9 @@ import BlogBottom from "../../components/blogBottom/BlogBottom";
 import Footer from "../../components/footer/Footer";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const apiUrl =
     "https://667ff64f56c2c76b495ab12a.mockapi.io/products?limit=10";
   const { data, loading, error } = useFetch(apiUrl);

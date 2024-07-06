@@ -1,5 +1,5 @@
 import React from "react";
-import "../header/header.css";
+import "../header/header.scss";
 import logo from "../../assets/Group 64.svg";
 import { FaRegHeart } from "react-icons/fa6";
 import { BiBarChartAlt } from "react-icons/bi";
@@ -12,29 +12,31 @@ const Header = () => {
   return (
     <div className="container">
       <div className="header">
-        <img className="" src={logo} alt="" />
-        <NavLink>
+        <NavLink to={`/`}>
+          <img className="" src={logo} alt="" />
+        </NavLink>
+        <NavLink to={`/Catalog`}>
           <button className="button">Каталог</button>
         </NavLink>
         <Product />
         <IoSearch className="search-icon" />
         <div className="item_div">
-          <NavLink className="navbar__item">
+          <NavLink to={`/wishlist`} className="navbar__item">
             <FaRegHeart className="navbar__item" />
           </NavLink>
-          <span>Избранное</span>
+          <h6>Избранное</h6>
         </div>
         <div className="item_div">
-          <NavLink className="navbar__item">
+          <NavLink to={`/notFound`} className="navbar__item">
             <BiBarChartAlt className="navbar__item" />
           </NavLink>
-          <span>Сравнение</span>
+          <h6>Сравнение</h6>
         </div>
         <div className="item_div">
-          <NavLink className="navbar__item">
+          <NavLink to={`/cart`} className="navbar__item">
             <GrCart className="navbar__item" />
           </NavLink>
-          <span>Корзина</span>
+          <h6>Корзина</h6>
         </div>
       </div>
     </div>

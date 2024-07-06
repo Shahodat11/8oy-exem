@@ -14,7 +14,7 @@ const Katalog = () => {
       <div>
         <div className="katalog">
           <h3 className="h3">Каталог</h3>
-          <NavLink>
+          <NavLink to={`/Catalog`}>
             <button className="button1">Весь каталог</button>
           </NavLink>
         </div>
@@ -28,14 +28,14 @@ const Katalog = () => {
           </div>
           <div className="card">
             <div className="card_title">
-              <h4 className="h4">Люстры</h4>
+              <h4 className="h4">Светильники</h4>
               <h5>От 540₽</h5>
             </div>
             <img className="cart_img" src={cart2} alt="" />
           </div>
           <div className="card">
             <div className="card_title">
-              <h4 className="h4">Люстры</h4>
+              <h4 className="h4">Бра</h4>
               <h5>От 540₽</h5>
             </div>
             <img className="cart_img" src={cart3} alt="" />
@@ -44,21 +44,21 @@ const Katalog = () => {
         <div className="cards">
           <div className="card">
             <div className="card_title">
-              <h4 className="h4">Люстры</h4>
+              <h4 className="h4">Торшеры</h4>
               <h5>От 540₽</h5>
             </div>
             <img className="cart_img" src={cart4} alt="" />
           </div>
           <div className="card">
             <div className="card_title">
-              <h4 className="h4">Люстры</h4>
+              <h4 className="h4">Настольные лампы</h4>
               <h5>От 540₽</h5>
             </div>
             <img className="cart_img" src={cart5} alt="" />
           </div>
           <div className="card">
             <div className="card_title">
-              <h4 className="h4">Люстры</h4>
+              <h4 className="h4">Споты</h4>
               <h5>От 540₽</h5>
             </div>
             <img className="cart_img" src={cart6} alt="" />

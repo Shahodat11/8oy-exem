@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+header {
+  position: fixed;
+  z-index: 100;
+  background: #fff;
+  font-family: "Manrope";
+  font-family: Manrope !important;
+}
+
+.nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s linear;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+li {
+  list-style: none;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.12px;
+  text-align: left;
+}
+
+h6 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.12px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #777
+}
+.navbar__item{
+  width: 22px;
+  height: 22px;
+}
+a:hover {
+  color: #000;
+}
+
+#navbar-responsive.open {
+  left: 0;
+}
+
+.menu-btn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  display: none;
+  padding: 19.5px 0;
+}
+
+.menu-btn span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: #000;
+}
+
+@media (max-width: 850px) {
+  #navbar-responsive {
+    position: fixed;
+    top: 91px;
+    bottom: 0;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+}
+
+.navbar-shrink {
+  padding: 8px 0;
+}
+
+.menu-btn {
+  padding: 10px 0;
+}
+
+#navbar-responsive {
+  top: 56px;
+}

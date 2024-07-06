@@ -12,7 +12,7 @@ const Blog = () => {
       <div className="container">
         <div className="product_top">
           <h2 className="product_h2">Блог</h2>
-          <NavLink>
+          <NavLink to={`/blog`}>
             <button className="button1">Перейти в блог</button>
           </NavLink>
         </div>

@@ -3,38 +3,55 @@ import "../banner/banner.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import img1 from "../../assets/Group 13 (1).svg";
+import img1 from "../../assets/bannerImg.png";
 
-import { Navigation, Autoplay } from "swiper/modules";
+import { Navigation, Autoplay, Pagination } from "swiper/modules";
 
-const Banner = () => {
+const cBanner = () => {
   return (
     <div className="container">
       <div className="banner">
         <Swiper
-          // loop={true}
-          // navigation={true}
+          spaceBetween={30}
+          centeredSlides={true}
+          loop={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
-          modules={[Navigation, Autoplay]}
-          className="banner__swiper"
+          pagination={{
+            clickable: true,
+          }}
+          navigation={false}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
         >
-          <SwiperSlide className="banner__item">
-            <img src={img1} alt="" />
+          <SwiperSlide>
+            <div className="rasmcha">
+              <h1>
+                Скидка 15% на все подвесные светильники{" "}
+                <span>до 5 февраля</span>
+              </h1>
+              <img src={img1} alt="" />
+            </div>
           </SwiperSlide>
-          <SwiperSlide className="banner__item">
-            <img src={img1} alt="" />
+          <SwiperSlide>
+            <div className="rasmcha">
+              <h1>
+                Скидка 15% на все подвесные светильники{" "}
+                <span>до 5 февраля</span>
+              </h1>
+              <img src={img1} alt="" />
+            </div>
           </SwiperSlide>
-          <SwiperSlide className="banner__item">
-            <img src={img1} alt="" />
-          </SwiperSlide>
-          <SwiperSlide className="banner__item">
-            <img src={img1} alt="" />
-          </SwiperSlide>
-          <SwiperSlide className="banner__item">
-            <img src={img1} alt="" />
+          <SwiperSlide>
+            <div className="rasmcha">
+              <h1>
+                Скидка 15% на все подвесные светильники{" "}
+                <span>до 5 февраля</span>
+              </h1>
+              <img src={img1} alt="" />
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>
@@ -42,4 +59,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default cBanner;

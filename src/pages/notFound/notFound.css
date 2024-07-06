@@ -1,0 +1,38 @@
+.not404{
+    font-family: Manrope;
+    font-size: 427px;
+    font-weight: 700;
+    line-height: 469.7px;
+    text-align: center;
+    color: #ececec;
+}
+.not{
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: center;
+    padding-top: 18px;
+}
+.button12 {
+    width: 216px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #454545;
+    background-color: #454545;
+    color: #fff;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.86px;
+    text-align: center;
+    margin-top: 60px;
+}
+.not-button{
+    padding-left: 580px;
+}
+.button12:hover{
+    color: #454545;
+    transition: all .3s linear;
+    background-color: #fff;
+}

@@ -11,7 +11,9 @@ const Footer = () => {
       <div className="container">
         <div className="footer">
           <div className="footer_title">
-            <img src={footerLogo} alt="" />
+            <NavLink to={`/`}>
+              <img src={footerLogo} alt="" />
+            </NavLink>
             <h4 className="tel">8 (800) 890-46-56</h4>
             <img src={cardLogo} alt="" />
             <h4 className="footer_h4">Политика конфидециальности</h4>
@@ -25,32 +27,32 @@ const Footer = () => {
           <div className="footer_title">
             <h6 className="footer_h6">Покупателям</h6>
             <h4 className="footer_h4">
-              <NavLink to="/" className="footer_h4">
+              <NavLink to="/aboutUs" className="footer_h4">
                 О компании
               </NavLink>
             </h4>
             <h4 className="footer_h4">
-              <NavLink to="/" className="footer_h4">
+              <NavLink to="/shipping-and-payment" className="footer_h4">
                 Доставка и оплата
               </NavLink>
             </h4>
             <h4 className="footer_h4">
-              <NavLink to="/" className="footer_h4">
+              <NavLink to="/return" className="footer_h4">
                 Возврат
               </NavLink>
             </h4>
             <h4 className="footer_h4">
-              <NavLink to="/" className="footer_h4">
+              <NavLink to="/garant" className="footer_h4">
                 Гарантии
               </NavLink>
             </h4>
             <h4 className="footer_h4">
-              <NavLink to="/" className="footer_h4">
+              <NavLink to="/contact" className="footer_h4">
                 Контакты
               </NavLink>
             </h4>
             <h4 className="footer_h4">
-              <NavLink to="/" className="footer_4">
+              <NavLink to="/blog" className="footer_4">
                 Блог
               </NavLink>
             </h4>

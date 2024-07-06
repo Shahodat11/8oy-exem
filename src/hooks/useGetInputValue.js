@@ -28,3 +28,4 @@ const fetchProducts = async (limit, page) => {
   }
   return response.json();
 };
+8;

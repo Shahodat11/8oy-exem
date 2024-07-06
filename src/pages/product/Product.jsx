@@ -27,7 +27,7 @@ const Product = () => {
       );
     }
   }, [searchValue]);
-  console.log(filteredData);
+  // console.log(filteredData);
   return (
     <div>
       <div className="product_search">
@@ -39,8 +39,8 @@ const Product = () => {
           onChange={(e) => setSeachValue(e.target.value)}
         />
         {searchValue.trim() ? (
-          filteredData?.slice(0, 2)?.map((el) => (
-            <div className="product_search" key={el.id}>
+          filteredData?.slice(0, 3)?.map((el) => (
+            <div className="product_search sear" key={el.id}>
               <div className="navv">
                 <Link to={`/single/${el.id}`}>
                   <img className="imgg" src={img} width={50} alt="" />
