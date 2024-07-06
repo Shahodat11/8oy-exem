@@ -1,5 +1,5 @@
 import React from "react";
-import "../banner/banner.css";
+import "../banner/banner.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";

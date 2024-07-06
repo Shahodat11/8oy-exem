@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import Skeleton from "../../pages/skeleton/Skeleton";
 import { Link, NavLink } from "react-router-dom";
 import { FaRegHeart, FaHeart } from "react-icons/fa";
 import { IoCartOutline, IoCartSharp } from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleLike } from "../../context/wishlistSlice";
 import { addToCart } from "../../context/cartSlice";
-import "../products/Products.css";
+import "../products/Products.scss";
 import img from "../../assets/20230528180416535300 1 (1).svg";
 
 const Productts = ({ data, loading }) => {

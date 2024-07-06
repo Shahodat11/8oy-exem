@@ -1,5 +1,5 @@
 import React from "react";
-import "../cardBottom/cartBottom.css";
+import "../cardBottom/cartBottom.scss";
 import { NavLink } from "react-router-dom";
 import cart1 from "../../assets/Group 123.svg";
 import cart2 from "../../assets/img2.png";

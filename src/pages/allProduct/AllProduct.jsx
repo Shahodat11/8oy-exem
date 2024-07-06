@@ -1,5 +1,5 @@
 import React from "react";
-import "../allProduct/allProduct.css";
+import "../allProduct/allProduct.scss";
 import Products from "../../components/products/Products";
 import useFetch from "../../hooks/useFetch";
 import { NavLink } from "react-router-dom";

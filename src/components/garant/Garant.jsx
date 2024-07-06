@@ -1,5 +1,5 @@
 import React from "react";
-import "../garant/garant.css";
+import "../garant/garant.scss";
 import { NavLink } from "react-router-dom";
 
 const Garant = () => {

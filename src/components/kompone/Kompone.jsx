@@ -1,5 +1,5 @@
 import React from "react";
-import "../kompone/kompone.css";
+import "../kompone/kompone.scss";
 import { NavLink } from "react-router-dom";
 
 const Kompone = () => {

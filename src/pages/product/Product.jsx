@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "../product/product.css";
+import "../product/product.scss";
 import { Link } from "react-router-dom";
 import img from "../../assets/20230528180416535300 1 (1).svg";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Empty from "../../components/empty/Empty";
 import { useSelector } from "react-redux";
-import "../wishlist/wishlist.css";
+import "../wishlist/wishlist.scss";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";

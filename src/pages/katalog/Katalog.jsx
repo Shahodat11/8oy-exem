@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../katalog/katalog.css";
+import "../katalog/katalog.scss";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Header";
 import Katalogg from "../../components/katalog/Katalogg";

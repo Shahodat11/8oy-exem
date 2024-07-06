@@ -1,5 +1,5 @@
 import React from "react";
-import "../empty/Empty.css";
+import "../empty/Empty.scss";
 import wishlist from "../../assets/wishlist.png";
 import { NavLink } from "react-router-dom";
 

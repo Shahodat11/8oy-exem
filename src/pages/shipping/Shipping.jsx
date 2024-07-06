@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../shipping/shipping.css";
+import "../shipping/shipping.scss";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Header";
 import Shippings from "../../components/shipping/Shippings";

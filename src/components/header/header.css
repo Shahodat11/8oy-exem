@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 header {
   position: fixed;
   z-index: 100;
@@ -42,13 +41,15 @@ h6 {
 
 a {
   text-decoration: none;
-  color: #777
+  color: #777;
 }
-.navbar__item{
+
+.navbar__item {
   width: 22px;
   height: 22px;
   margin-left: 10px;
 }
+
 a:hover {
   color: #000;
 }
@@ -88,12 +89,10 @@ a:hover {
     align-items: center;
     transition: 0.5s;
   }
-
   .menu-btn {
     display: flex;
   }
 }
-
 .navbar-shrink {
   padding: 8px 0;
 }
@@ -104,4 +103,4 @@ a:hover {
 
 #navbar-responsive {
   top: 56px;
-}
+}/*# sourceMappingURL=header.css.map */

@@ -1,5 +1,5 @@
 import React from "react";
-import "../footer/footer.css";
+import "../footer/footer.scss";
 import footerLogo from "../../assets/Group 64.svg";
 import cardLogo from "../../assets/image 1.svg";
 import logo from "../../assets/Group 59.svg";

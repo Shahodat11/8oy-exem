@@ -1,0 +1,14 @@
+.container{
+    .nav {
+            ul {
+                li {
+                    .navbar-a {
+                        &.active {
+                            color: #d3b86e;
+                        }
+                    }
+                }
+            }
+    
+        }
+}

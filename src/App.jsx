@@ -1,11 +1,8 @@
 import { useState } from "react";
-import "./App.css";
+import "./App.scss";
 import Home from "./pages/home/Home";
 import Auth from "./pages/auth/Auth";
 import Admin from "./pages/admin/Admin";
-// import Wishlist from "./pages/wishlist/Wishlist";
-// import Cart from "./pages/cart/Cart";
-// import Login from "./pages/login/Login";
 import Single from "./pages/single/Single";
 import { Route, Routes } from "react-router-dom";
 import AllProduct from "./pages/allProduct/AllProduct";
@@ -27,7 +24,6 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/" element={<Auth />}>
           <Route path="/Admin" element={<Admin />} />
         </Route>

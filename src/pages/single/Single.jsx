@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../single/single.css";
+import "../single/single.scss";
 import { NavLink, useParams } from "react-router-dom";
 import { useGetProductByIdQuery } from "../../context/api/productApi";
 import Navbar from "../../components/navbar/Navbar";

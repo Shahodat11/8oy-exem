@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../cart/cart.css";
+import "../cart/cart.scss";
 import { TiDeleteOutline } from "react-icons/ti";
 import Empty from "../../components/empty/Empty";
 import Navbar from "../../components/navbar/Navbar";

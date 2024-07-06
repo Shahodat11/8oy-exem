@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../blogpage/blog.css";
+import "../blogpage/blog.scss";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Header";
 import BlogComponents from "../../components/blogcomponents/BlogComponents";

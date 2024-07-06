@@ -1,5 +1,5 @@
 import React from "react";
-import "../blog/blog.css";
+import "../blog/blog.scss";
 import { NavLink } from "react-router-dom";
 import blog_img1 from "../../assets/Rectangle 12.svg";
 import blog_img2 from "../../assets/Rectangle 12 (1).svg";

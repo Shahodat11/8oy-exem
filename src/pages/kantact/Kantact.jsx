@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../kantact/kantact.css";
+import "../kantact/kantact.scss";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";

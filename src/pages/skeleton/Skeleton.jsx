@@ -1,5 +1,5 @@
 import React from "react";
-import "./Skeleton.css";
+import "./Skeleton.scss";
 
 function Skeleton({ count = 5 }) {
   return (

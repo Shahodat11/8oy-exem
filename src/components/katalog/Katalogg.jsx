@@ -1,5 +1,5 @@
 import React from "react";
-import "../katalog/katalog.css";
+import "../katalog/katalog.scss";
 import { NavLink } from "react-router-dom";
 import cart1 from "../../assets/250970 1.svg";
 import cart2 from "../../assets/000000392_granda_led_ral9006_ceiling_0-45-125 1.svg";

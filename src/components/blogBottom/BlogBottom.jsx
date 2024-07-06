@@ -1,5 +1,5 @@
 import React from "react";
-import "../blogBottom/blogButtom.css";
+import "../blogBottom/blogButtom.scss";
 
 const BlogBottom = () => {
   return (
