@@ -108,8 +108,8 @@ const Single = () => {
               </h1>
             </div>
             <div className="tablet-title1">
-              <h6 className="title1">Седло</h6>
-              <h6 className="title2">Ritchey WCS Streem V3 Titanium rails</h6>
+              <h1 className="title1">Седло</h1>
+              <h1 className="title2">Ritchey WCS Streem V3 Titanium rails</h1>
             </div>
             <div className="tablet-title1">
               <h1 className="title1">Вилка</h1>
