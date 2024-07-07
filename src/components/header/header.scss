@@ -85,9 +85,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #e6e6e6;
     transition: 0.5s;
-    z-index: 7654345678;
   }
 }
 @media (max-width: 850px) {
@@ -102,6 +100,9 @@ a:hover {
     justify-content: center;
     align-items: center;
     transition: 0.5s;
+    background-color: #e6e6e6;
+    z-index: 7654345678;
+    margin-top: 25px;
   }
 
   .menu-btn {
