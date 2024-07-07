@@ -19,8 +19,7 @@
 }
 
 .shipping-p {
-  width: 640px;
-  height: 112px;
+  max-width: 640px;
   font-family: Manrope;
   font-size: 20px;
   font-weight: 400;

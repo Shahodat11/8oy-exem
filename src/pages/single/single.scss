@@ -65,7 +65,7 @@
 .single-p{
     padding-left: 56px;
     padding-top: 20px;
-    width: 607px;
+    max-width: 607px;
     height: 78px;
     font-family: Inter;
     font-size: 16px;
@@ -73,6 +73,7 @@
     line-height: 25.6px;
     text-align: left;
     color: #4C4C4C;
+    margin-bottom: 30px;
 }
 .tablet-title{
     height: 55px;
@@ -112,4 +113,72 @@
 }
 .single-button{
     padding-left: 50px;
+}
+@media (max-width: 1300px) and (min-width: 340px) {
+    .nav-links2{
+        .singlee{
+            display: none;
+        }
+    }
+    .button12{
+        margin-top: 30px;
+    }
+    .singleTop{
+        padding-top: 80px;
+    }
+}
+@media (max-width: 1040px) and (min-width: 340px) {
+    .single-nav{
+        flex-wrap: wrap;
+    }
+    .nav-links1{
+        .single-img{
+            width: 500px;
+            height: 400px;
+            margin-top: 30px;
+        }
+    }
+    .single-min{
+        width: 121px;
+        height: 130px;
+    }
+}
+@media (max-width: 550px) and (min-width: 340px) {
+    .nav-links1{
+        .single-img{
+            width: 440px;
+            height: 300px;
+            margin-top: 25px;
+        }
+    }
+    .single-min{
+        width: 106.5px;
+        height: 115px;
+    }
+}
+@media (max-width: 490px) and (min-width: 340px) {
+    .nav-links1{
+        .single-img{
+            width: 380px;
+            height: 320px;
+            margin-top: 20px;
+        }
+    }
+    .single-min{
+        width: 91.5px;
+        height: 100px;
+    }
+}
+@media (max-width: 417px) and (min-width: 340px) {
+    .nav-links1{
+        .single-img{
+            width: 320px;
+            height: 260px;
+            margin-top: 15px;
+        }
+    }
+    .single-min{
+        width: 76.5px;
+        height: 86px;
+    }
 }

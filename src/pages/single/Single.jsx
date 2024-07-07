@@ -20,9 +20,11 @@ const Single = () => {
       <Navbar />
       <Header />
       <div className="container">
-        <NavLink to={`/`}>
-          <button className="button11">Главная</button>
-        </NavLink>
+        <div className="singleTop">
+          <NavLink to={`/`}>
+            <button className="button11">Главная</button>
+          </NavLink>
+        </div>
       </div>
       <div className="container">
         <div className="single-nav">
@@ -60,60 +62,60 @@ const Single = () => {
           <h1 className="single-h1">Характеристика</h1>
           <div className="tablet">
             <div className="tablet-title">
-              <h6 className="title1">Цвет</h6>
-              <h6 className="title2">Жёлтый</h6>
+              <h1 className="title1">Цвет</h1>
+              <h1 className="title2">Жёлтый</h1>
             </div>
             <div className="tablet-title">
-              <h6 className="title1">Год</h6>
-              <h6 className="title2">2016</h6>
+              <h1 className="title1">Год</h1>
+              <h1 className="title2">2016</h1>
             </div>
             <div className="tablet-title">
-              <h6 className="title1">Диаметр колеса</h6>
-              <h6 className="title2">27.5</h6>
+              <h1 className="title1">Диаметр колеса</h1>
+              <h1 className="title2">27.5</h1>
             </div>
             <div className="tablet-title">
-              <h6 className="title1">Материал рамы</h6>
-              <h6 className="title2">Карбон</h6>
+              <h1 className="title1">Материал рамы</h1>
+              <h1 className="title2">Карбон</h1>
             </div>
             <div className="tablet-title">
-              <h6 className="title1">Размер</h6>
-              <h6 className="title2">L</h6>
+              <h1 className="title1">Размер</h1>
+              <h1 className="title2">L</h1>
             </div>
             <div className="tablet-title">
-              <h6 className="title1">Страна</h6>
-              <h6 className="title2">Швейцария</h6>
+              <h1 className="title1">Страна</h1>
+              <h1 className="title2">Швейцария</h1>
             </div>
             <div className="tablet-title">
-              <h6 className="title1">Производитель</h6>
-              <h6 className="title2">Scott</h6>
+              <h1 className="title1">Производитель</h1>
+              <h1 className="title2">Scott</h1>
             </div>
             <div className="tablet-title1">
-              <h6 className="title1">Покрышки</h6>
-              <h6 className="title2">
+              <h1 className="title1">Покрышки</h1>
+              <h1 className="title2">
                 Schwalbe Rocket Ron EVO / 2.1 127EPI Kevlar Bead Tubeless Easy
-              </h6>
+              </h1>
             </div>
             <div className="tablet-title1">
-              <h6 className="title1">Рама</h6>
-              <h6 className="title2">
+              <h1 className="title1">Рама</h1>
+              <h1 className="title2">
                 Scale Carbon / HMX-технология / технология IMP
-              </h6>
+              </h1>
             </div>
             <div className="tablet-title1">
-              <h6 className="title1">Подседельный Штырь</h6>
-              <h6 className="title2">
+              <h1 className="title1">Подседельный Штырь</h1>
+              <h1 className="title2">
                 Ritchey WCS 700 Series: Carbon Link FlexLogic
-              </h6>
+              </h1>
             </div>
             <div className="tablet-title1">
               <h6 className="title1">Седло</h6>
               <h6 className="title2">Ritchey WCS Streem V3 Titanium rails</h6>
             </div>
             <div className="tablet-title1">
-              <h6 className="title1">Вилка</h6>
-              <h6 className="title2">
+              <h1 className="title1">Вилка</h1>
+              <h1 className="title2">
                 Rock Shox SID RL3 Air / демпфер DNA3 3-режима
-              </h6>
+              </h1>
             </div>
           </div>
         </div>
