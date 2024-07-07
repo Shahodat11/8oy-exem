@@ -65,6 +65,11 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
+                <NavLink to="/admin" className="navbar-a">
+                  Админ
+                </NavLink>
+              </li>
+              <li>
                 <h6>8 (800) 890-46-56</h6>
               </li>
               <li>

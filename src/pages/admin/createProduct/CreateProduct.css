@@ -32,14 +32,14 @@
   text-indent: 12px;
   height: 40px;
   border-radius: 8px;
-  border: 1px solid #4c4c4c;
+  border: 2px solid #d3b86e;
   padding: 5px 0;
   height: 100%;
 }
 .createProduct form label textarea {
   resize: none;
   border-radius: 8px;
-  border: 1px solid #4c4c4c;
+  border: 2px solid #d3b86e;
   padding: 10px;
   outline: none;
 }
@@ -50,11 +50,12 @@
   font-size: 16px;
   font-weight: 500;
   border-radius: 12px;
-  border: 1px solid #454545;
+  border: 2px solid #454545;
   transition: 0.2s;
   padding: 14px 42px;
 }
 .createProduct form button:hover {
   background: #fff;
-  color: #454545;
+  color: #d3b86e;
+  border: 2px solid #d3b86e;
 }/*# sourceMappingURL=CreateProduct.css.map */

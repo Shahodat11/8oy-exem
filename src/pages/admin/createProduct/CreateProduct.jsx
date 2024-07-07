@@ -51,13 +51,6 @@ const CreateProduct = () => {
             required
           />
         </label>
-
-        <label htmlFor="category">
-          <select name="category" id="category">
-            <option value={formData.category}></option>
-          </select>
-        </label>
-
         <label htmlFor="url">
           url
           <textarea
