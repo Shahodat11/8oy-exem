@@ -10,4 +10,20 @@
   line-height: 57.5px;
   text-align: center;
   color: #000;
+}
+
+@media (max-width: 575px) and (min-width: 340px) {
+  .empty {
+    max-width: 450px;
+  }
+}
+@media (max-width: 515px) and (min-width: 340px) {
+  .empty {
+    max-width: 380px;
+  }
+}
+@media (max-width: 420px) and (min-width: 340px) {
+  .empty {
+    max-width: 340px;
+  }
 }/*# sourceMappingURL=Empty.css.map */
