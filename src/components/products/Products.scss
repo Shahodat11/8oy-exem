@@ -112,16 +112,21 @@
     .price_cartbutton{
         width: 80px;
     }
+    .product_price{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
 }
 @media (max-width: 466px) and (min-width: 340px) {
     .product_cart{
         width: 135px;
         height: 250px;
-        margin-left: -56px;
-        padding-right: 60px;
+        margin-left: -45px;
+        padding-right: 50px;
     }
     .product_img{
-        width: 80px;
+        width: 90px;
         height: 126px;
     }
     .cart-button{
@@ -138,5 +143,9 @@
     .like{
         width: 18px;
         height: 18px;
+    }
+    .like-img{
+        width: 16px;
+        height: 16px;
     }
 }

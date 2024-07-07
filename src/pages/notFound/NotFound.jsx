@@ -13,11 +13,6 @@ const NotFound = () => {
         <div className="notFound">
           <h6 className="not404">404</h6>
           <h5 className="not">Похоже, ничего не нашлось :(</h5>
-          <div className="not-button">
-            <NavLink to={`/`}>
-              <button className="button12">На главную</button>
-            </NavLink>
-          </div>
         </div>
       </div>
     </div>

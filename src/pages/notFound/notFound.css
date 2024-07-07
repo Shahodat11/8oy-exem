@@ -39,4 +39,34 @@
   color: #454545;
   transition: all 0.3s linear;
   background-color: #fff;
+}
+
+@media (max-width: 990px) and (min-width: 790px) {
+  .not404 {
+    font-size: 390px;
+    font-weight: 600;
+    line-height: 400.7px;
+    padding-top: 80px;
+  }
+}
+@media (max-width: 835px) and (min-width: 650px) {
+  .not404 {
+    font-size: 330px;
+    font-weight: 500;
+    line-height: 350.7px;
+    padding-top: 80px;
+  }
+}
+@media (max-width: 790px) and (min-width: 600px) {
+  .not404 {
+    font-size: 280px;
+    font-weight: 500;
+    line-height: 300.7px;
+    padding-top: 80px;
+  }
+}
+@media (max-width: 550px) and (min-width: 340px) {
+  .not {
+    padding-top: 100px;
+  }
 }/*# sourceMappingURL=notFound.css.map */
