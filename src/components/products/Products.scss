@@ -95,7 +95,7 @@
 .productts{
     padding-top: 40px;
 }
-@media (max-width: 665px) and (min-width: 340px) {
+@media (max-width: 670px) and (min-width: 340px) {
     .product_cart{
         width: 160px;
         height: 279px;
@@ -116,6 +116,9 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 18px;
+    }
+    .product_top{
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 466px) and (min-width: 340px) {

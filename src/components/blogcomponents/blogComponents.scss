@@ -1,13 +1,15 @@
-.blog{
+.blog {
     padding-bottom: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.blog_title{
+
+.blog_title {
     display: flex;
 }
-.blog_h6{
+
+.blog_h6 {
     width: 310px;
     height: 52px;
     font-family: Manrope;
@@ -16,12 +18,14 @@
     line-height: 26px;
     text-align: left;
 }
-.blog_cart{
+
+.blog_cart {
     width: 420px;
     height: 456px;
-    border-radius: 10px ;
+    border-radius: 10px;
 }
-.day{
+
+.day {
     font-family: Manrope;
     font-size: 14px;
     font-weight: 500;
@@ -30,41 +34,49 @@
     padding-top: 24px;
     color: #454545;
 }
-.strelka{
+
+.strelka {
     padding-left: 70px;
 }
+
 @media (max-width: 1300px) and (min-width: 340px) {
     .blog {
         flex-wrap: wrap;
     }
 }
+
 @media (max-width: 1290px) and (min-width: 990px) {
-    .blog_cart{
+    .blog_cart {
         width: 350px;
         height: 400px;
-        border-radius: 10px ;
+        border-radius: 10px;
     }
-    .blogcart-img{
+
+    .blogcart-img {
         max-width: 370px;
     }
 }
+
 @media (max-width: 1290px) and (min-width: 990px) {
-    .blog_cart{
+    .blog_cart {
         width: 320px;
         height: 370px;
-        border-radius: 10px ;
+        border-radius: 10px;
     }
-    .blogcart-img{
+
+    .blogcart-img {
         max-width: 340px;
     }
 }
+
 @media (max-width: 490px) and (min-width: 340px) {
-    .blog_cart{
-        max-width: 310px;
+    .blog_cart {
+        max-width: 300px;
         height: 350px;
-        border-radius: 10px ;
+        border-radius: 10px;
     }
-    .blogcart-img{
-        max-width: 320px;
+
+    .blogcart-img {
+        max-width: 300px;
     }
 }

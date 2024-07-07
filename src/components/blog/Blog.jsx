@@ -18,7 +18,7 @@ const Blog = () => {
         </div>
         <div className="blog">
           <div className="blog_cart">
-            <img src={blog_img1} alt="" />
+            <img className="blogcart-img" src={blog_img1} alt="" />
             <div className="blog_title">
               <h3 className="blog_h6">Как правильно освещать дом снаружи?</h3>
               <img className="strelka" src={strelka} alt="" />
@@ -26,7 +26,7 @@ const Blog = () => {
             <h3 className="day">01.01.2024</h3>
           </div>
           <div className="blog_cart">
-            <img src={blog_img2} alt="" />
+            <img className="blogcart-img" src={blog_img2} alt="" />
             <div className="blog_title">
               <h3 className="blog_h6">Как правильно освещать дом снаружи?</h3>
               <img className="strelka" src={strelka} alt="" />
@@ -34,7 +34,7 @@ const Blog = () => {
             <h3 className="day">01.01.2024</h3>
           </div>
           <div className="blog_cart">
-            <img src={blog_img3} alt="" />
+            <img className="blogcart-img" src={blog_img3} alt="" />
             <div className="blog_title">
               <h3 className="blog_h6">Как правильно освещать дом снаружи?</h3>
               <img className="strelka" src={strelka} alt="" />

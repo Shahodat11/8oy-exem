@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 .blog_p{
-    width: 640px;
+    max-width: 640px;
     padding-top: 30px;
     font-family: Manrope;
     font-size: 20px;
@@ -28,4 +28,9 @@
     font-weight: 700;
     line-height: 54.64px;
     text-align: left;
+}
+@media (max-width: 1300px) and (min-width: 340px) {
+    .blog_buttom{
+        flex-wrap: wrap;
+    }
 }

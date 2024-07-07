@@ -35,11 +35,7 @@ span {
 .card{
     width: 420px;
     height: 250px;
-    top: 878px;
-    left: 310px;
-    gap: 0px;
     border-radius: 20px;
-    opacity: 0px;
     display: flex;   
     background-color: #F2F2F2;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 }
@@ -77,4 +73,72 @@ h5{
     font-weight: 700;
     line-height: 54.64px;
     text-align: left;
+}
+@media (max-width: 1300px) and (min-width: 340px) {
+    .cards{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 1270px) and (min-width: 340px) {
+    .card{
+        padding-top: 10px;
+        width: 380px;
+        height: 210px;
+    }
+    .cart_img2{
+        width: 240px;
+        padding-left: 70px;
+    }
+    .h4{
+        padding-bottom: 100px;
+    }
+}
+@media (max-width: 1210px) and (min-width: 340px) {
+    .card{
+        padding-top: 10px;
+        width: 350px;
+        height: 190px;
+    }
+    .cart_img2{
+        width: 210px;
+        padding-left: 60px;
+    }
+    .h4{
+        padding-bottom: 85px;
+    }
+}
+@media (max-width: 760px) and (min-width: 340px) {
+    .card{
+        padding-top: 10px;
+        width: 160px;
+        height: 190px;
+    }
+    .cart_img2{
+        width: 130px;
+        margin-left: -120px;
+    }
+    .cart_img1{
+        width: 100px;
+        margin-left: -120px;
+    }
+    .h4{
+        padding-bottom: 85px;
+    }
+    .katalogg{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 760px) and (min-width: 340px) {
+    .card{
+        display: none;
+    }
+    .h3{
+        display: none;
+    }
+    .button1{
+        display: none;
+    }
+    .h33{
+        margin-top: -200px;
+    }
 }

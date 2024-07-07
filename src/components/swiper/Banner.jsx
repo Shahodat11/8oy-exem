@@ -48,15 +48,6 @@ const Banner = () => {
           <SwiperSlide>
             <img src={img3} alt="" />
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={img1} alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img2} alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img3} alt="" />
-          </SwiperSlide>
         </Swiper>
       </div>
     </div>
