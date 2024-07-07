@@ -77,6 +77,22 @@ a:hover {
 }
 
 @media (max-width: 850px) {
+  header .nav #navbar-responsive {
+    position: fixed;
+    top: 91px;
+    bottom: 0;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    transition: 0.5s;
+    z-index: 7654345678;
+  }
+}
+@media (max-width: 850px) {
   #navbar-responsive {
     position: fixed;
     top: 91px;
@@ -98,7 +114,7 @@ a:hover {
 }
 
 .menu-btn {
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 
 #navbar-responsive {

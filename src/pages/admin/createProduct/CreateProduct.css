@@ -1,0 +1,60 @@
+.createProduct h2 {
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 30.8px;
+  text-align: left;
+  color: #454545;
+  padding-bottom: 33px;
+}
+.createProduct form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.createProduct form label {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #4c4c4c;
+  cursor: pointer;
+}
+.createProduct form label input {
+  outline: none;
+  text-indent: 12px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #4c4c4c;
+  padding: 5px 0;
+  height: 100%;
+}
+.createProduct form label textarea {
+  resize: none;
+  border-radius: 8px;
+  border: 1px solid #4c4c4c;
+  padding: 10px;
+  outline: none;
+}
+.createProduct form button {
+  background: #454545;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 12px;
+  border: 1px solid #454545;
+  transition: 0.2s;
+  padding: 14px 42px;
+}
+.createProduct form button:hover {
+  background: #fff;
+  color: #454545;
+}/*# sourceMappingURL=CreateProduct.css.map */

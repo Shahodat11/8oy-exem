@@ -36,4 +36,10 @@
   font-weight: 600;
   line-height: 33.6px;
   text-align: left;
+}
+
+@media (max-width: 995px) and (min-width: 340px) {
+  .shipping {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=shipping.css.map */
