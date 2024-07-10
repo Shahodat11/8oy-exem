@@ -93,12 +93,12 @@ const Cart = () => {
                 {cartItems}
               </div>
             </div>
+            <Karzinka />
           </>
         ) : (
           <Emptyy text="Cart" />
         )}
       </div>
-      <Karzinka />
       <Footer />
     </>
   );
