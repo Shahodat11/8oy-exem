@@ -1,7 +1,6 @@
 import React from "react";
 import "../cart/cart.scss";
 import img from "../../assets/20230528180416535300 1 (1).svg";
-import { TiDeleteOutline } from "react-icons/ti";
 import { RiDeleteBinLine } from "react-icons/ri";
 import Emptyy from "../../components/emptyy/Emptyy";
 import Navbar from "../../components/navbar/Navbar";
@@ -14,6 +13,7 @@ import {
   decrementCartQuantity,
   removeItemFromCart,
 } from "../../context/cartSlice";
+import Karzinka from "../../components/karzinka/Karzinka";
 
 const Cart = () => {
   const carts = useSelector((s) => s.cart.value);
@@ -98,6 +98,7 @@ const Cart = () => {
           <Emptyy text="Cart" />
         )}
       </div>
+      <Karzinka />
       <Footer />
     </>
   );
