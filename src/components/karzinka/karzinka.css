@@ -6,7 +6,6 @@
     height: 628px;
     border-radius: 20px;
     margin-top: 20px;
-    margin-left: 20px;
     background-color: #F2F2F2;
 }
 .karzinka-h2{
@@ -79,7 +78,6 @@ form{
     height: 361px;
     border-radius: 20px;
     margin-top: 20px;
-    margin-left: 20px;
     background-color: #F2F2F2;
 }
 .karbottom{
@@ -110,6 +108,24 @@ form{
     background-color: #454545;
 }
 .karzinkabutton:hover{
+    color: #454545;
+    transition: all .3s linear;
+    background-color: #F2F2F2;
+}
+.karzinkabuttonn{
+    width: 324px;
+    height: 50px;
+    border-radius: 100px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    background-color: #454545;
+}
+.karzinkabuttonn:hover{
     color: #454545;
     transition: all .3s linear;
     background-color: #F2F2F2;

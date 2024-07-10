@@ -49,7 +49,7 @@ const Cart = () => {
             >
               -
             </button>
-            <div className="span">
+            <div className="spann">
               <b className="b">{item?.quantity}</b>
             </div>
             <button
