@@ -1,76 +1,97 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../cart/cart.scss";
+import img from "../../assets/20230528180416535300 1 (1).svg";
 import { TiDeleteOutline } from "react-icons/ti";
+import { RiDeleteBinLine } from "react-icons/ri";
+import Emptyy from "../../components/emptyy/Emptyy";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import {
   incrementCartQuantity,
   decrementCartQuantity,
   removeItemFromCart,
 } from "../../context/cartSlice";
-import Emptyy from "../../components/emptyy/Emptyy";
 
 const Cart = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   const carts = useSelector((s) => s.cart.value);
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
+  console.log(carts);
+
+  let totalPrice = carts?.reduce(
+    (sum, item) => sum + item.price * item.quantity,
+    0
+  );
+
   let cartItems = carts?.map((item) => (
     <div key={item.id}>
-      <div className="cart-title">
-        <button onClick={() => dispatch(removeItemFromCart(item))}>
-          <TiDeleteOutline />
-        </button>
-        <img className="cart-img" src={item.image} width={150} alt="" />
-        <p className="cart-title">{item.title}</p>
+      <hr />
+      <div className="karzink">
+        <img className="karzinka-img" src={img} width={50} alt="" />
+        <div className="title-price">
+          <p className="karzinka-title">{item.title}</p>
+          <p className="karzinka-price">{item.price?.brm()}</p>
+        </div>
+        <p className="apisana">
+          Светильник RADUGA COMBO XS Промышленное освещение; 50Вт; 230В; S4; XS;
+        </p>
+        <p className="apisana">RAD-COMBO-50/XXX/230/XXX/XXX/S4/XS</p>
         <div className="plus-minus">
-          <button
-            className="plus"
-            disabled={item?.quantity <= 1}
-            onClick={() => dispatch(decrementCartQuantity(item))}
-          >
-            -
-          </button>
-          <span className="son">{item?.quantity}</span>
-          <button
-            className="minus"
-            onClick={() => dispatch(incrementCartQuantity(item))}
-          >
-            +
-          </button>
+          <div className="karzinkaa">
+            <button
+              className="plus-minuss"
+              disabled={item?.quantity <= 1}
+              onClick={() => dispatch(decrementCartQuantity(item))}
+            >
+              -
+            </button>
+            <div className="span">
+              <b className="b">{item?.quantity}</b>
+            </div>
+            <button
+              className="plus-minuss"
+              onClick={() => dispatch(incrementCartQuantity(item))}
+            >
+              +
+            </button>
+            <button
+              className="cart-delete"
+              onClick={() => dispatch(removeItemFromCart(item))}
+            >
+              <RiDeleteBinLine className="cart-delete" />
+            </button>
+          </div>
         </div>
       </div>
-      <br />
     </div>
   ));
   return (
     <>
+      <Navbar />
+      <Header />
       <div className="container">
-        <Navbar />
-        <Header />
-        <div className="cart-pagee">
-          <div className="cart-name">
-            <h4 className="cart-h4">PRODUCT</h4>
-            <div className="cart-names">
-              <h4 className="cart-h4">PRICE</h4>
-              <h4 className="cart-h4">QTY</h4>
-              <h4 className="cart-h4">UNIT PRICE</h4>
-            </div>
-          </div>
-          <br />
-          <hr />
-        </div>
         {carts.length ? (
           <>
+            <NavLink to={`/`}>
+              <button className="button11">Корзина</button>
+            </NavLink>
+            <h2 className="shipping-h2">Контакты</h2>
+            <h2 className="jami">Oбщий : {totalPrice?.brm()}</h2>
             <div className="container">
-              {cartItems}
-              <button onClick={() => navigate("/checkout")}>Check Out</button>
+              <div className="cart-pagee">
+                <div className="karzinka">
+                  <h5 className="karzinka-h5">Фото</h5>
+                  <h5 className="karzinka-h5">Товары</h5>
+                  <h5 className="karzinka-h5">Описание</h5>
+                  <h5 className="karzinka-h5">Артикул</h5>
+                  <h5 className="karzinka-h5">Количество</h5>
+                </div>
+                {cartItems}
+              </div>
             </div>
           </>
         ) : (

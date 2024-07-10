@@ -1,114 +1,111 @@
-.cart-name{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.cart-names{
-    display: flex;
-    gap: 115px;
-}
-.cart-h4{
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: left;
-    color: #22262A;
-}
-.cart-h4:hover{
-    color: #33A0FF;
-}
-.cart-title{
-    display: flex;
-}
-.cart-delete{
-    color: red;
-    background-color: #fff;
-    border: 2px solid #fff;
-}
-.cart-title{
-    display: flex;
-    justify-content: space-between;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    text-align: left;
-    padding-top: 40px;
-}
-.plus-minus{
-    width: 124.54px;
-    height: 40px;
-    top: 427.03px;
-    left: 1038.03px;
-    gap: 0px;
-    opacity: 0px;
-}
-.plus{
-    padding-left: 17px;
-    width: 30px;
-    height: 40px;
-    color: #33A0FF;
-    background-color: #F6F7F8;
-    border: 2px solid #F6F7F8;
-}
-.son{
-    width: 30px;
-    height: 50px;
-    color: #33A0FF;
-    background-color: #F6F7F8;
-    border: 2px solid #F6F7F8;
-}
-.minus{
-    padding-left: 15px;
-    width: 30px;
-    height: 40px;
-    color: #33A0FF;
-    background-color: #F6F7F8;
-    border: 2px solid #F6F7F8;
-}
-.plus:hover{
-    transition: all .3s linear;
-    color: #F6F7F8;
-    background-color: #33A0FF;
-}
-.minus:hover{
-    transition: all .3s linear;
-    color: #F6F7F8;
-    background-color: #33A0FF;
-}
-.cart-price{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    text-align: left;
-}
-.cart-price1{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    text-align: left;
-    padding-top: 25px;
-}
-.cart-name{
-width: 1300px;
-    height: 384px;
+.cart-pagee{
+    width: 1300px;
     top: 368px;
     left: 310px;
     gap: 0px;
-    border-radius: 20px 0px 0px 0px;
+    border-radius: 20px;
     opacity: 0px;
+    background-color: #F2F2F2;
 }
-@media (max-width: 695px) and (min-width: 330px) {
-    .cart-title{
-        flex-wrap: wrap;
-    }
-    .cart-name{
-        overflow: auto;
-    }
-    .cart-h4{
-        white-space: nowrap;
-    }
+.karzinka{
+    padding-top: 36px;
+    padding-bottom: 28px;
+    padding-left: 50px;
+    display: flex;
+    gap: 165px;
+}
+.karzinka-h5{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    text-align: left;
+    color: #9c9c9c;
+}
+.karzink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 85px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.karzinka-img{
+    width: 80px;
+    height: 80px;
+    top: 493px;
+    left: 359px;
+    gap: 0px;
+    border-radius: 15px;
+    opacity: 0px
+}
+.karzinka-title{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: left;
+    width: 174px;
+}
+.karzinka-price{
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+}
+.apisana{
+    width: 250px;
+    height: 63px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+}
+.span{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px;
+    opacity: 0.1px;
+    border: 1px solid #9c9c9c;
+}
+.karzinkaa{
+    display: flex;
+}
+.b{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    padding-left: 15px;
+}
+.plus-minuss{
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.78px;
+    text-align: left;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cart-delete{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+.cart-delete:hover{
+    transition: all .2s linear;
+    color: red;
+}
+.jami{
+    padding-left: 30px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.78px;
 }

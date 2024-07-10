@@ -11,7 +11,6 @@
     line-height: 70.4px;
     text-align: left;
     padding-top: 15px;
-    padding-bottom: 36px;
 }
 .kompone-cart{
     width: 530px;
@@ -42,11 +41,16 @@
     padding-left: 32px;
     padding-top: 80px;
 }
-.nav-link2{
-    width: 640px;
-    height: 810px;
-}
 .kompone-p{
+    padding-top: 15px;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+.kompone-pp{
+    padding-bottom: 40px;
     padding-top: 15px;
     font-family: Manrope;
     font-size: 20px;
@@ -64,4 +68,64 @@
     line-height: 21.86px;
     text-align: left;
     margin-top: 20px;
+}
+@media (max-width: 1260px) and (min-width: 340px) {
+    .kompone{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 700px) and (min-width: 340px) {
+    .kompone-cart{
+        width: 450px;
+        height: 203px;
+    }
+    .kompone-h4{
+        font-size: 55px;
+        font-weight: 700;        
+        line-height: 65.4px;
+    }
+}
+@media (max-width: 700px) and (min-width: 340px) {
+    .kompone-cart{
+        width: 450px;
+        height: 203px;
+    }
+    .kompone-h5{
+        padding-top: 55px;
+    }
+    .kompone-p{
+        display: none;
+    }
+}
+@media (max-width: 511px) and (min-width: 340px) {
+    .kompone-cart{
+        width: 400px;
+        height: 180px;
+    }
+    .kompone-h5{
+        padding-top: 40px;
+    }
+}
+@media (max-width: 455px) and (min-width: 340px) {
+    .kompone-cart{
+        width: 360px;
+        height: 160px;
+    }
+    .kompone-h5{
+        padding-top: 20px;
+    }
+}
+@media (max-width: 425px) and (min-width: 340px) {
+    .kompone-cart{
+        width: 325px;
+        height: 140px;
+    }
+    .kompone-h5{
+        padding-top: 10px;
+    }
+    .kompone-h4{
+        font-size: 35px;
+        font-weight: 600;        
+        line-height: 50.4px;
+    }    
 }

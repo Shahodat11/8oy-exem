@@ -19,6 +19,7 @@ import Cart from "./pages/cart/Cart";
 import CreateProduct from "./pages/admin/createProduct/CreateProduct";
 import ManageProduct from "./pages/admin/manageProduct/ManageProduct";
 import Login from "./pages/login/Login";
+import Checkout from "./pages/checkout/Checkout";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -35,7 +36,7 @@ function App() {
         </Route>
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/cart" element={<Cart />} />
-        {/* <Route path="/checkout" element={<Checkout />} /> */}
+        <Route path="/checkout" element={<Checkout />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/single/:id" element={<Single />} />
         <Route path="/allproduct" element={<AllProduct />} />
